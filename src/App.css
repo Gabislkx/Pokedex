@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2E2E2E;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  border-radius: 5px;
+  border: #2E2E2E;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.548);
+}
+
+h1 {
+  color: crimson;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 3rem;
+}
+
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.card {
+  background-color: #383838;
+  border: 2px solid #e01313;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 5px 15px rgba(233, 12, 12, 0.35);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 60%;
+  max-width: 140px;
+  height: auto;
+  object-fit: contain;
+}
+
+.tipo-secao {
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 40px;
+}
+
+.tipo-titulo {
+  color: crimson;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #555;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.tipo-titulo.tipo-fire {
+  color: #ff4444;
+  border-bottom-color: #ff4444;
+}
+
+.tipo-titulo.tipo-water {
+  color: #3399ff;
+  border-bottom-color: #3399ff;
+}
+
+.tipo-titulo.tipo-grass {
+  color: #77cc55;
+  border-bottom-color: #77cc55;
+}
+
+.tipo-titulo.tipo-electric {
+  color: #ffcc33;
+  border-bottom-color: #ffcc33;
+}
+
+.tipo-titulo.tipo-bug {
+  color: #aabb22;
+  border-bottom-color: #aabb22;
+}
+
+.tipo-titulo.tipo-normal {
+  color: #aaaa99;
+  border-bottom-color: #aaaa99;
+}
+
+.tipo-titulo.tipo-poison {
+  color: purple;
+  border-bottom-color: purple;
+}
+
+.tipo-titulo.tipo-ground {
+  color: brown;
+  border-bottom-color: brown;
+}
+
+.tipo-titulo.tipo-fairy {
+  color: pink;
+  border-bottom-color: pink;
+}
+
+.card.card-fire {
+  border-color: #ff4444;
+  box-shadow: 0 5px 15px rgba(255, 68, 68, 0.35);
+}
+.card.card-fire:hover {
+  box-shadow: 0 8px 20px rgba(255, 68, 68, 0.5);
+}
+
+.card.card-water {
+  border-color: #3399ff;
+  box-shadow: 0 5px 15px rgba(51, 153, 255, 0.35);
+}
+.card.card-water:hover {
+  box-shadow: 0 8px 20px rgba(51, 153, 255, 0.5);
+}
+
+.card.card-grass {
+  border-color: #77cc55;
+  box-shadow: 0 5px 15px rgba(119, 204, 85, 0.35);
+}
+.card.card-grass:hover {
+  box-shadow: 0 8px 20px rgba(119, 204, 85, 0.5);
+}
+
+.card.card-electric {
+  border-color: #ffcc33;
+  box-shadow: 0 5px 15px rgba(255, 204, 51, 0.35);
+}
+.card.card-electric:hover {
+  box-shadow: 0 8px 20px rgba(255, 204, 51, 0.5);
+}
+
+.card.card-bug {
+  border-color: #aabb22;
+  box-shadow: 0 5px 15px rgba(170, 187, 34, 0.35);
+}
+.card.card-bug:hover {
+  box-shadow: 0 8px 20px rgba(170, 187, 34, 0.5);
+}
+
+.card.card-normal {
+  border-color: #aaaa99;
+  box-shadow: 0 5px 15px rgba(170, 170, 153, 0.35);
+}
+.card.card-normal:hover {
+  box-shadow: 0 8px 20px rgba(170, 170, 153, 0.5);
+}
+
+.card.card-poison {
+  border-color: purple;
+  box-shadow: 0 5px 15px rgba(128, 0, 128, 0.35);
+}
+.card.card-poison:hover {
+  box-shadow: 0 8px 20px rgba(128, 0, 128, 0.5);
+}
+
+.card.card-ground {
+  border-color: brown;
+  box-shadow: 0 5px 15px rgba(165, 42, 42, 0.35);
+}
+.card.card-ground:hover {
+  box-shadow: 0 8px 20px rgba(165, 42, 42, 0.5);
+}
+
+.card.card-fairy {
+  border-color: pink;
+  box-shadow: 0 5px 15px rgba(255, 192, 203, 0.35);
+}
+.card.card-fairy:hover {
+  box-shadow: 0 8px 20px rgba(255, 192, 203, 0.5);
+}
