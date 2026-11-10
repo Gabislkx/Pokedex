@@ -1,16 +1,45 @@
-# React + Vite
+# Pokedex
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+### Descrição
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+### Imagens do Projeto
+![Print do projeto](./)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+### Integrantes do Projeto
+* Maria Gabriela de Lima Bonifácio Crescencio
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+### Instruções de Instalação e Execução
+
+Siga os passos abaixo no terminal para rodar o projeto localmente:
+
+1. **Clonar o repositório:**
+   ```bash
+   git clone https://github.com
+   ```
+
+2. **Entrar na pasta do projeto:**
+   ```bash
+   cd Rede-social
+   ```
+
+3. **Instalar as dependências:**
+   ```bash
+   npm install
+   ```
+
+4. **Iniciar o servidor local:**
+   ```bash
+   npm run dev
+   ```
+
+---
+
+### Link do Site
+[Acesse o projeto online aqui](https://pokedex-7713f.web.app/)
